@@ -53,10 +53,8 @@ def createSchedule():
         
         if (currWeek == RIVAL_WEEK_1 or currWeek == RIVAL_WEEK_2 or currWeek == RIVAL_WEEK_3) and enableRivals:
             teamsCopy = teams.copy()
-            print("TEAMS")
         else:
             teamsCopy = teamsCircular.copy()
-            print("TEAMS COPY")
         
         counter = 0
 
